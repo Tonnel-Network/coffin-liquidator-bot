@@ -1,4 +1,4 @@
-## Evaa Protocol and Hack-ton-berfest 2023
+## Coffin Liquidator Bot (Based on Evaa Liquidator bot)
 
 ---
 
