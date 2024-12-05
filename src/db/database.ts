@@ -2,7 +2,7 @@ import {Database, open} from "sqlite";
 import sqlite3 from 'sqlite3';
 import {emptyPrincipals, PrincipalsDict, Task, User} from "./types";
 import {retry} from "../util/retry";
-import {PoolAssetConfig} from "@evaafi/sdkv6";
+import {PoolAssetConfig} from "@evaafi/sdk";
 import {makeCreateUsersScript, makeProcessUserScript} from "./helpers";
 
 const seconds = (s: number) => s * 1000;

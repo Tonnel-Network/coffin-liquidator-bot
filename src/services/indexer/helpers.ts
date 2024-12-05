@@ -1,6 +1,6 @@
 import {Address} from "@ton/core";
 import {BANNED_ASSETS_FROM, BANNED_ASSETS_TO, MIN_WORTH_SWAP_LIMIT, POOL_CONFIG} from "../../config";
-import {ExtendedAssetsConfig} from "@evaafi/sdkv6";
+import {ExtendedAssetsConfig} from "@evaafi/sdk";
 import {Dictionary} from "@ton/ton";
 import {sleep} from "../../util/process";
 import {formatBalances, getAddressFriendly, getFriendlyAmount} from "../../util/format";

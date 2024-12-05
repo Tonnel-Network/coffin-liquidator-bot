@@ -1,6 +1,6 @@
 import {WalletBalances} from "../../lib/balances";
 import {formatBalances, getFriendlyAmount} from "../../util/format";
-import {ExtendedAssetsConfig} from "@evaafi/sdkv6";
+import {ExtendedAssetsConfig} from "@evaafi/sdk";
 import {POOL_CONFIG} from "../../config";
 
 type TaskMinimal = {
