@@ -1,0 +1,5 @@
+.idea
+node_modules
+.env
+database-mainnet.db
+package-lock.json
