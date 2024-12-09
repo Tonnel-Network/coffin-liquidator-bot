@@ -13,6 +13,7 @@ export const ASSET_ID = {
     KINGY:           sha256Hash('KINGY'),
     BOLGUR:           sha256Hash('BOLGUR'),
     TONNEL:           sha256Hash('TONNEL'),
+    MEM:          sha256Hash('MEM'),
     time:           sha256Hash('time'),
 };
 
@@ -52,6 +53,7 @@ export const LIQUIDATION_BALANCE_LIMITS = new Map<bigint, bigint>([
     [ASSET_ID.KINGY,        10_000_000_000n],
     [ASSET_ID.BOLGUR,        100_000_000_000n],
     [ASSET_ID.TONNEL,        1_000_000_000n],
+    [ASSET_ID.MEM,        1_000_000_000n],
 
 ]);
 

@@ -20,6 +20,8 @@ export const JETTON_WALLETS = new Map<bigint, Address>([
     [ASSET_ID.BOLGUR,  Address.parse('EQDQ-iuaORNUmt2EWRzk52mECnwfYcWOlZmUUM-ThvF6_Leu')],
 
 
+
+    [ASSET_ID.MEM,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.TONNEL,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.RAFF, Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.DUREV,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
@@ -123,6 +125,12 @@ export const POOL_CONFIG = {
             assetId: MAINNET_ASSETS_ID.BOLGUR,
             jettonMasterAddress: JETTON_MASTER_ADDRESSES.BOLGUR[CHAIN.MAINNET],
             jettonWalletCode: JETTON_WALLETS_CODE.BOLGUR[CHAIN.MAINNET]
+        },
+        {
+            name: 'MEM',
+            assetId: MAINNET_ASSETS_ID.MEM,
+            jettonMasterAddress: JETTON_MASTER_ADDRESSES.MEM[CHAIN.MAINNET],
+            jettonWalletCode: JETTON_WALLETS_CODE.MEM[CHAIN.MAINNET]
         }
     ],
     masterAddress: Address.parse('EQBozwKVDya9IL3Kw4mR5AQph4yo15EuMdyX8nLljeaUxrpM'),
