@@ -17,6 +17,7 @@ export const JETTON_WALLETS = new Map<bigint, Address>([
     [ASSET_ID.ANON, Address.parse('EQAWvx_X-8I8gnO4fndQk2q7pn62Yowcd_Qbod5YO4Wq22rp')],
     [ASSET_ID.HYDRA, Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.KINGY,  Address.parse('EQCoj_pjCsc_PvtXZL9FA2I4NTMOjP2qvK8nkz7h_Uyh-cw0')],
+    [ASSET_ID.FWT,  Address.parse('EQDFNOsD_blRRZtKY6ISWkVAZiAidG5KczU2k34yQK3bndgJ')],
     [ASSET_ID.BOLGUR,  Address.parse('EQDQ-iuaORNUmt2EWRzk52mECnwfYcWOlZmUUM-ThvF6_Leu')],
 
 
@@ -113,6 +114,12 @@ export const POOL_CONFIG = {
             assetId: MAINNET_ASSETS_ID.KINGY,
             jettonMasterAddress: JETTON_MASTER_ADDRESSES.KINGY[CHAIN.MAINNET],
             jettonWalletCode: JETTON_WALLETS_CODE.KINGY[CHAIN.MAINNET]
+        },
+        {
+            name: 'FWT',
+            assetId: MAINNET_ASSETS_ID.FWT,
+            jettonMasterAddress: JETTON_MASTER_ADDRESSES.FWT[CHAIN.MAINNET],
+            jettonWalletCode: JETTON_WALLETS_CODE.FWT[CHAIN.MAINNET]
         },
         {
             name: 'TONNEL',

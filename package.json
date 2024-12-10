@@ -39,6 +39,6 @@
     "sort-deep-object-arrays": "^1.1.2",
     "sqlite": "^5.0.1",
     "sqlite3": "^5.1.6",
-    "coffin-sdk": "^0.0.33"
+    "coffin-sdk": "^0.0.39"
   }
 }
