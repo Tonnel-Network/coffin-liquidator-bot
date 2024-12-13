@@ -19,6 +19,7 @@ export const JETTON_WALLETS = new Map<bigint, Address>([
     [ASSET_ID.KINGY,  Address.parse('EQCoj_pjCsc_PvtXZL9FA2I4NTMOjP2qvK8nkz7h_Uyh-cw0')],
     [ASSET_ID.FWT,  Address.parse('EQDFNOsD_blRRZtKY6ISWkVAZiAidG5KczU2k34yQK3bndgJ')],
     [ASSET_ID.BOLGUR,  Address.parse('EQDQ-iuaORNUmt2EWRzk52mECnwfYcWOlZmUUM-ThvF6_Leu')],
+    [ASSET_ID.GRAM,  Address.parse('EQCPCw1vkr2D3TDgrQtBOApHtYRaCA7jrzRSez-TarVTuUcm')],
 
 
 
@@ -26,7 +27,6 @@ export const JETTON_WALLETS = new Map<bigint, Address>([
     [ASSET_ID.TONNEL,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.RAFF, Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.DUREV,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
-    [ASSET_ID.GRAM,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.TCAT,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
 
 ]);
