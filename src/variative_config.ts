@@ -20,13 +20,13 @@ export const JETTON_WALLETS = new Map<bigint, Address>([
     [ASSET_ID.FWT,  Address.parse('EQDFNOsD_blRRZtKY6ISWkVAZiAidG5KczU2k34yQK3bndgJ')],
     [ASSET_ID.BOLGUR,  Address.parse('EQDQ-iuaORNUmt2EWRzk52mECnwfYcWOlZmUUM-ThvF6_Leu')],
     [ASSET_ID.GRAM,  Address.parse('EQCPCw1vkr2D3TDgrQtBOApHtYRaCA7jrzRSez-TarVTuUcm')],
+    [ASSET_ID.DUREV,  Address.parse('EQBcKysMoKxvev5INl7Wx9YYWQwBlJh5R19KGsn4mEjvzfKo')],
 
 
 
     [ASSET_ID.MEM,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.TONNEL,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.RAFF, Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
-    [ASSET_ID.DUREV,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
     [ASSET_ID.TCAT,  Address.parse('EQBwd0jBxbhz966zw3mI4_LRByEt3yIR2spHDbqBRn-a9VBW')],
 
 ]);
