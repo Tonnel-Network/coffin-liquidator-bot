@@ -37,7 +37,7 @@ const dbPathTestnet = './database-testnet.db';
 export const DB_PATH = IS_TESTNET ? dbPathTestnet : dbPathMainnet
 /* Actual configuration */
 export const TON_API_ENDPOINT = 'https://tonapi.io/';
-export const PRICE_API = 'https://api.tonnel.network/coffin/getPricesMainnet'
+export const PRICE_API = 'https://api.coffin.meme/coffin/getPricesMainnet'
 
 export async function makeTonClient() {
     configDotenv();
